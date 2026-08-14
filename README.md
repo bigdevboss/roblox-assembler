@@ -45,7 +45,7 @@ DataStore, HttpService, JSON, MessagingService, рандом, вывод.
 ## Структура
 
 ```
-x86asm/
+roblox-assembler/src/
 ├── serverAsm/init.server.luau     серверный интерпретатор (Script)
 ├── clientAsm/init.client.luau     клиентский интерпретатор (LocalScript)
 ├── examples/
@@ -53,9 +53,6 @@ x86asm/
 │   └── bouncing_ball.x86.asm      прыгающий мяч (x86)
 ├── lib/winapi.asm                 исходник библиотеки WinAPI
 └── install.luau                   одна команда для Command Bar
-dll-demo/
-├── cdemo.dll                      скомпилированный C (машинный код GCC)
-└── build_cdemo.py                 как собрать эту DLL
 ```
 
 ## Как поставить в Studio
